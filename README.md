@@ -2,7 +2,10 @@
 <img width="1065" height="790" alt="PixPin_2026-10-03_15-27-45" src="https://github.com/user-attachments/assets/3e393085-9f14-4060-a46b-27d6e577342a" />
 <img width="1065" height="790" alt="PixPin_2026-10-03_15-28-34" src="https://github.com/user-attachments/assets/96630779-e73e-471a-aa5f-9bc9ad9e7a0b" />
 
-面向 Windows 的 Python 环境管理与脚本打包工具，基于 Python + Tkinter 开发，界面简洁，无需命令行基础即可使用。
+# PY更新安装打包助手
+
+面向 Windows 的 Python 环境管理与脚本打包工具，基于 Python + Tkinter 开发，
+界面简洁，无需命令行基础即可使用。
 
 当前版本：v1.0.0
 
@@ -16,20 +19,10 @@
 - 将 Python 脚本打包成 EXE（支持 PyInstaller 与 Nuitka 两种方式）
 - 检查 Python 库是否有更新
 
-## 运行环境
+## 下载使用
 
-- 操作系统：Windows
-- Python 3.x（需包含 Tkinter，官方安装包默认自带）
-- 可选依赖：send2trash（删除文件时送入回收站）
-- 打包功能需按需安装 PyInstaller 或 Nuitka
-
-## 使用方法
-
-1. 安装 Python 3，安装时勾选 Add Python to PATH
-2. 双击 `PY安装更新打包助手1.0.0-发布版.py` 运行
-3. 按界面提示检测环境、安装库或打包脚本
-
-若需以无控制台窗口方式运行，可将文件扩展名改为 `.pyw` 后双击。
+适用于 Windows。前往本仓库的 Releases 页面，下载最新版的 exe 文件，
+双击即可运行，无需安装 Python。
 
 ## 安全说明
 
