@@ -1,4 +1,9 @@
 # PY更新安装打包助手
+<img width="1065" height="790" alt="PixPin_2026-10-03_15-28-24" src="https://github.com/user-attachments/assets/323fa091-32b0-4f19-b2b4-49dc87525a84" />
+<img width="1065" height="790" alt="PixPin_2026-10-03_15-28-13" src="https://github.com/user-attachments/assets/de57d82c-d979-477b-94dc-61177bbf511a" />
+<img width="1065" height="790" alt="PixPin_2026-10-03_15-28-03" src="https://github.com/user-attachments/assets/451da6d3-8873-41ca-8eeb-9ae2e9bedb4d" />
+<img width="1065" height="790" alt="PixPin_2026-10-03_15-27-45" src="https://github.com/user-attachments/assets/3e393085-9f14-4060-a46b-27d6e577342a" />
+<img width="1065" height="790" alt="PixPin_2026-10-03_15-28-34" src="https://github.com/user-attachments/assets/96630779-e73e-471a-aa5f-9bc9ad9e7a0b" />
 
 面向 Windows 的 Python 环境管理与脚本打包工具，基于 Python + Tkinter 开发，界面简洁，无需命令行基础即可使用。
 
