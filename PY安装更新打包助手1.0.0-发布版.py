@@ -2708,7 +2708,7 @@ class PyAssistantApp:
         threading.Thread(target=pack_thread, daemon=True).start()
 
     def _show_about(self):
-        msg = (f"关于 {APP_NAME}\n\n一个让新手也能轻松管理 Python 环境的小工具。\n\n作者：{AUTHOR}\n版本：{VERSION}\n基于内部测试版 2.9.3 发布\n制作日期：{self.build_date}\n\n功能：\n  • 检测 Python 环境状态\n  • 一键安装 / 修复常用库\n  • 查看所有库并支持单个 / 批量卸载\n  • 库清单可复制到报告区或剪贴板\n  • 从 requirements.txt 恢复全部依赖\n  • 将 Python 脚本打包成 EXE\n  • 检查 Python 库是否有更新\n\n安全特性：\n  • 打包临时目录只清理工具自建的子文件夹，绝不碰你的其他文件\n  • 清理走回收站，可恢复\n  • 自己打包自己时自动复制，静默处理\n\n基于 Python + Tkinter 开发")
+        msg = (f"关于 {APP_NAME}\n\n一个让新手也能轻松管理 Python 环境的小工具。\n\n作者：{AUTHOR}\n版本：{VERSION}\n基于内部测试版 2.9.4 发布\n制作日期：{self.build_date}\n\n功能：\n  • 检测 Python 环境状态\n  • 一键安装 / 修复常用库\n  • 查看所有库并支持单个 / 批量卸载\n  • 库清单可复制到报告区或剪贴板\n  • 从 requirements.txt 恢复全部依赖\n  • 将 Python 脚本打包成 EXE\n  • 检查 Python 库是否有更新\n\n安全特性：\n  • 打包临时目录只清理工具自建的子文件夹，绝不碰你的其他文件\n  • 清理走回收站，可恢复\n  • 自己打包自己时自动复制，静默处理\n\n【关于打包功能的说明】\n本软件最初是作者为自己开发的小工具，用于管理 Python 主程序与常用库的更新。打包功能仅满足作者自身使用需求，其前提假设为：待打包的 PY 文件已能在本机正常运行。如需更完善的打包功能，建议使用 auto-py-to-exe，本软件的重心在于 Python 环境本身的管理与维护。\n\n基于 Python + Tkinter 开发")
         messagebox.showinfo("关于", msg)
 
 
